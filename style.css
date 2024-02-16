@@ -34,6 +34,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  height: 600px;
 }
 .right img {
   width: 363px;
@@ -174,16 +175,42 @@ p{
   justify-content: space-around;
   width: 432px;
 }
-.alar{
+.alare{
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 200px;
 }
-.alar a{
+.alare a{
   color: white;
   text-decoration: none;
 }
 .nicho{
   width: 200px;
+}
+
+
+.noni {
+  animation-duration: 4s;
+  animation-name: diring;
+  transition:0.4s linear; 
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes diring{
+  0%{
+    margin-top: 20px; 
+  }
+  25%{
+    margin-left: 20px; 
+  }
+  50%{
+    margin-right: 20px;
+  }
+  75%{
+    margin-bottom : 20px; 
+  }
+  100%{
+    margin-left: 20px;
+  }
 }
